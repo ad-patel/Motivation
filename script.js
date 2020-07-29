@@ -16362,7 +16362,9 @@ function mouseClicked()
 }
 function backgroundCircles() {
   //light blue
-  noStroke();
+  //noStroke();
+    stroke(0);
+    strokeWidth(1);
   fill(blue);
   ellipse((3 * width) / 4 + 20, 40, 20);
   
